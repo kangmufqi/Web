@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+
+    <style>
+        /* h1{
+            color:blue;
+            text-align: right;
+            font-style: normal;
+            text-decoration: underline overline;
+        } */
+
+        p{
+            color:green;
+            font-size: xx-large;
+            font-variant: normal;
+        }
+
+        p.alert {
+            text-decoration : underline ; 
+            padding-bottom : 10 px ;
+            background-color : orange ; 
+            font-weight :bold ;
+        }
+
+        .red1.blue { 
+            color : white ; 
+            background-color : black ; 
+            margin : 5 px ; 
+        }
+
+        .red1 { 
+            color : pink ; 
+            background-color : yellow ; 
+            margin : 5 px ; 
+        }
+
+        .red2 { 
+            color : red ; 
+            background-color : blueviolet ; 
+            margin : 5 px ; 
+        }
+        
+        .blue { 
+            color : inherit ;
+            margin : 5 px ; 
+            }
+
+            ol a {color: red; text-decoration: none;} /* hyperlink in ol */
+            ul>li {font-style: italic;} /* li children of ol*/
+            p+ol {font-variant: small-caps;} /* ol immediately after p */
+            p~ol {background-color: yellow;} /* ol after p */
+
+        h1      {background-color:yellow; text-decoration:overline ;color:gray;}
+        .brown  {background-color:brown; text-decoration: underline;}
+        #i1     {background-color: greenyellow; color:blueviolet;}
+
+
+        ul>li{
+            display: inline;
+            margin-right: 10px;
+        }
+    </style>
+        <body>
+            <h1 id="i1" class="brown" style="color:aliceblue">What do you mean?</h1>
+            <h1>This is heading</h1>
+            <p>This is Paragraph</p>
+            <p class="blue red2">Ini kata Berwarna...</p>
+
+            <p> A paragraph with a <a href=“/index.php"> hyperlink </a></p>
+            <ol><li> A list item in an ordered list with a <a href="/index.php"> hyperlink </a></li></ol>
+            <ol><li> A list item in an ordered list with a <a href="/index.php"> hyperlink </a></li></ol>
+            
+            <p>Menu :</p>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">Anggota Aktif</a></li>
+                <li><a href="">Daftar</a></li>
+            </ul>
+        </body>
+    </head>
+</html>
+
